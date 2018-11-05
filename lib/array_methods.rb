@@ -1,7 +1,6 @@
 def using_include(array, element)
-  if element = element1
-    return true
-  elsif element = element2
+    array.include?(element)
+end
     return false
   end
 end
